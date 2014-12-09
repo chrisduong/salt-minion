@@ -12,7 +12,7 @@ RUN curl -L https://bootstrap.saltstack.com | sh -s -- -M -N -X git v2014.7.0 ||
 VOLUME ['/etc/salt/minion.d']
 
 # Add Run File
-ADD ../run.sh /usr/local/bin/run.sh
+ADD run.sh /usr/local/bin/run.sh
 RUN chmod +x /usr/local/bin/run.sh
 
 
