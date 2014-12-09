@@ -6,7 +6,7 @@ MAINTAINER Chris Duong <chris.duong83@gmail.com>
 # Install dependencies
 RUN yum clean all; \
       yum install curl -y 
-RUN curl -L https://bootstrap.saltstack.com | sh -s -- -M -N -X git v2014.7.0 || true
+RUN curl -L https://bootstrap.saltstack.com | sh -s -- -X git v2014.7.0 || true
 
 # Volumes
 VOLUME ['/etc/salt/minion.d']
