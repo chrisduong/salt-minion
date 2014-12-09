@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #
-# Salt-Master Run Script
+# Salt-Minion Run Script
 #
 
 set -e
