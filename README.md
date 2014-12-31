@@ -1,5 +1,6 @@
 # Dockerfile for Salt Master
-# Inspired from soon/salt-minion
+Inspired from soon/salt-minion
+There are two tags for 2 distributions: Ubuntu (default) and CentOS
 
 # Installation
 Following https://github.com/saltstack/salt-bootstrap/tree/v2014.10.30
